@@ -170,7 +170,7 @@ end match
 # BEGIN server_stable branches
 match /branches/server_stable_6_2/
     repository boinc
-    branch refs/tags/server_stable_20080731
+    branch refs/tags/server_stable/20080731
     max revision 16141 # deleted in 16142
     annotated true
 end match
