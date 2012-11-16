@@ -5,8 +5,12 @@ end repository
 # doesn't have slash at beginning or end
 declare TRUNK_OR_BRANCHES=(?:trunk/boinc|branches/[^/]+(?:/boinc)?)
 
+# libraries to exclude
+# doesn't have slash at beginning or end
+declare LIBS_EXCLUDED=(openssl|curl|icu|zlib)
+
 # BEGIN skip compiled binaries
-match /${TRUNK_OR_BRANCHES}/(openssl|curl|icu|zlib)/(mswin|win32)/
+match /${TRUNK_OR_BRANCHES}/$LIBS_EXCLUDED/(mswin|win32)/
 end match
 match /${TRUNK_OR_BRANCHES}/coprocs/(CUDA|NVIDIA)/(mswin|linux|posix)/
 end match
@@ -35,9 +39,9 @@ end match
 match /trunk/letters
 end match
 
-match /workspaces/didactylos/(openssl|curl|icu|zlib)/mswin/
+match /workspaces/didactylos/$LIBS_EXCLUDED/mswin/
 end match
-match /workspaces/fweiler/(boinc/)?(openssl|curl|icu|zlib)/mswin/
+match /workspaces/fweiler/(boinc/)?$LIBS_EXCLUDED/mswin/
 end match
 match /workspaces/wxwidgets_2_9_4
 end match
