@@ -186,7 +186,7 @@ match /branches/server_stable/
 end match
 match /branches/server_stable/
     repository boinc
-    branch refs/tags/server_stable_20090411
+    branch refs/tags/server_stable_20091104
     min revision 19458
     max revision 22326 # deleted in 22327
     annotated true
