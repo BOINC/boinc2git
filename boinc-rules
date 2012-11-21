@@ -170,41 +170,41 @@ end match
 # BEGIN server_stable branches
 match /branches/server_stable_6_2/
     repository boinc
-    branch refs/tags/server_stable/20080731
+    branch refs/tags/server_release/20080731
     max revision 16141 # deleted in 16142
     annotated true
 end match
 match /branches/server_stable/
     repository boinc
-    branch refs/tags/server_stable/20081006
+    branch refs/tags/server_release/20081006
     min revision 16147
     max revision 17263 # deleted in 17264
     annotated true
 end match
 match /branches/server_stable/
     repository boinc
-    branch refs/tags/server_stable/20090213
+    branch refs/tags/server_release/20090213
     min revision 17265
     max revision 19455 # deleted in 19456
     annotated true
 end match
 match /branches/server_stable/
     repository boinc
-    branch refs/tags/server_stable/20091104
+    branch refs/tags/server_release/20091104
     min revision 19458
     max revision 22326 # deleted in 22327
     annotated true
 end match
 match /branches/server_stable/
     repository boinc
-    branch refs/tags/server_stable/20100908
+    branch refs/tags/server_release/20100908
     min revision 22328
     max revision 25021 # deleted in 25022
     annotated true
 end match
 match /branches/server_stable/
     repository boinc
-    branch refs/tags/server_stable/20120110
+    branch refs/tags/server_release/20120110
     min revision 25023
     annotated true
 end match
