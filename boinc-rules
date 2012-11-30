@@ -59,6 +59,7 @@ end match
 match /trunk/boinc_samples/
     repository boinc
     branch samples
+    max revision 15692
 end match
 
 # Charlie's workspace for AsyncRPC work
