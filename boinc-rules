@@ -14,6 +14,8 @@ match /${TRUNK_OR_BRANCHES}/${LIBS_EXCLUDED}/(mswin|win32)/
 end match
 match /${TRUNK_OR_BRANCHES}/coprocs/(CUDA|NVIDIA)/(mswin|linux|posix)/
 end match
+match /trunk/boinc/lib/libcudart(32|64).so
+end match
 match /trunk/boinc/samples/wrapper/(bin|i386|ppc|x86_64)/
 end match
 match /trunk/boinc/samples/redist/
