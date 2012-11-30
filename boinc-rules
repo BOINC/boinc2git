@@ -165,7 +165,7 @@ end match
 # BEGIN kadam workspace
 match /workspaces/kadam/
     repository boinc
-    branch kadam
+    branch kadam/pymw
 end match
 # END
 
