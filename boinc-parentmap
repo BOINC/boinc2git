@@ -37,6 +37,7 @@
 15681 15702
 
 # Merge samples into trunk
+clear 15730
 15692 15730
 
 # merge from trunk to 5.2
