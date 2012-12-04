@@ -235,6 +235,10 @@ match /branches/boinc_core_release_6_(2|4|6|6a|10|12)/
     repository boinc
     branch client_release/6/6.\1
 end match
+match /branches/boinc_core_release_6_10_36_a/
+    repository boinc
+    branch client_release/6/6.10.36a
+end match
 match /branches/boinc_core_release_7_(0|0a)/
     repository boinc
     branch client_release/7/7.\1
