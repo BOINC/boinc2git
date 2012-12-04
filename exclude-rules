@@ -8,8 +8,6 @@
 # BEGIN to be converted later
 match /workspaces/christianb/
 end match
-match /branches/boinc_core_release_6_10_36_a/
-end match
 match /tags/(boinc_app_release_[^/]+)/
 end match
 match /tags/(boinc_release_[^/]+)/
