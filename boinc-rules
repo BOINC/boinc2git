@@ -152,7 +152,7 @@ end match
 # BEGIN wxListCtrl workspace
 match /workspaces/wxListCtrl/
     repository boinc
-    branch rwalton/wxListCtrl
+    branch charlief/wxlistctrl
     # r15505 is the last real change
     # r15506 merges it to trunk
     # ...
