@@ -42,8 +42,18 @@
 # merge from trunk to 5.2
 8685 8687
 
+# merge from trunk to 6.8
+19738 19751
+20242 20243
+19046 23630
+
+# merge from trunk to 6.10
+19046 19047
+
 # merge from trunk to 7.0a
 25434 25435
+25477 25478
+25503 25504
 
 # merges from server_stable to trunk
 # (when bugfixes were done on both,
