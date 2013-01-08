@@ -39,16 +39,24 @@
 # Merge samples into trunk
 15692 15730
 
+# merge Charlie's dscl workaround from 6.12 to 6.12.34 and trunk
+23916 23917
+23916 23918
+
 # merge from trunk to 5.2
 8685 8687
 
 # merge from trunk to 6.8
-19738 19751
 20242 20243
 19046 23630
 
 # merge from trunk to 6.10
 19046 19047
+
+# merge from trunk to 6.12
+21415 21427
+22841 22871
+23295 23316
 
 # merge from trunk to 7.0a
 25434 25435
